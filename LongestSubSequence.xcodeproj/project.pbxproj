@@ -23,6 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D04D015D24E615D10066AABA /* LongestCommonSubs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestCommonSubs.h; sourceTree = "<group>"; };
+		D04D015E24E6167C0066AABA /* LongSubOpt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongSubOpt.h; sourceTree = "<group>"; };
 		D05E43FA24C510D7004751FC /* LongestSubSequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LongestSubSequence; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05E43FD24C510D7004751FC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				D05E43FD24C510D7004751FC /* main.cpp */,
+				D04D015D24E615D10066AABA /* LongestCommonSubs.h */,
+				D04D015E24E6167C0066AABA /* LongSubOpt.h */,
 			);
 			path = LongestSubSequence;
 			sourceTree = "<group>";
