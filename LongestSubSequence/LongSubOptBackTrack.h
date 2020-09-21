@@ -20,6 +20,7 @@ public:
          std::cout << std::endl;
      }
     // function for building the longest common subsequence using back tracking.
+    // o(nm) space and time complexity
     std::vector<char> longestCommonSubsequence(std::string str1,
                                                std::string str2) {
         std::vector<std::vector<std::vector<int>>> lcs(str2.length()+1,
