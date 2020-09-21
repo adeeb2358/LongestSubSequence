@@ -11,16 +11,20 @@
 #include <string>
 #include "LongestCommonSubs.h"
 #include "LongSubOpt.h"
+#include "LongSubOptBackTrack.h"
 
 int main(int argc, const char * argv[]) {
+    std::cout << "Longest Subsequence!\n";
     std::string str1="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     std::string str2="CCCDDEGDHAGKGLWAJWKJAWGKGWJAKLGGWAFWLFFWAGJWKAG";
     LongestCommonSubs longSubs;
     LongSubOpt longSubOpt;
+    LongSubOptBackTrack longSubOptBackTrack;
     auto result = longSubs.longestCommonSubsequence(str1, str2);
    // longSubs.printVector(result);
     auto result2 = longSubOpt.longestCommonSubsequence(str1, str2);
     longSubOpt.printVector(result2);
-    std::cout << "Longest Subsequence!\n";
+    auto result3 = longSubOptBackTrack.longestCommonSubsequence(str1, str2);
+    longSubOptBackTrack.printVector(result3);
     return 0;
 }

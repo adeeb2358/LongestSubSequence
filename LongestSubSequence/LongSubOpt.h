@@ -38,7 +38,7 @@ public:
                oddLcs.push_back(std::vector<char>());
            }
                    
-                     for (int i = 1; i < large.length() +1; i++) {
+             for (int i = 1; i < large.length() +1; i++) {
                std::vector<std::vector<char>> *currentlcs;
                std::vector<std::vector<char>> *previouslcs;
                if (i % 2 == 1) {
